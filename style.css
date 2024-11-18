@@ -7,7 +7,7 @@
 
 body {
     font-family: "Inter", sans-serif;
-     color: #303030;
+    color: #303030;
 }
 
 header {
@@ -29,18 +29,27 @@ header span {
 .main-section {
     /* Стили для первой секции */
     background-color: #fafaff;
+    padding: 60px 0 60px 0;
+    min-height: 100vh;
 }
 
 .main-title {
     /* Стили для заголовка в первой секции */
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 20px;
 }
 
 .main-text {
     /* Стили для текста в первой секции */
+    font-weight: 400;
+    font-size: 18px;
+
 }
 
 .main-image {
     /* Стили для изображения в первой секции */
+    max-width: 715px;
 }
 
 
