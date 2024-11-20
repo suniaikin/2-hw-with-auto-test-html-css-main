@@ -122,6 +122,17 @@ select {
 
 .text-field {
     /* Стили для односточного поля ввода текста */
+
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 330px;
+    height: 36px;
+    padding: 9px 215px 8px 12px;
+
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(48, 48, 48, 0.2);
 }
 
 .btn {
