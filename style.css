@@ -7,6 +7,8 @@
 
 body {
     font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
     color: #303030;
 }
 
@@ -55,23 +57,55 @@ header span {
 
 .about-section {
     /* Стили для второй секции */
-    background-color: #fff
+    background-color: #fff;
+    padding: 100px 0;
 }
 
 select {
     /* Стили для выпадающего списка */
+    width: 150px;
+    height: 36px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 150px;
+    height: 36px;
+    padding: 9px 12px 8px 12px;
+    appearance: none;
+    background-image: url('./assets/images/Vector.svg');
+    background-repeat: no-repeat;
+    background-position: right 12px top 50%;
+
 }
 
 .section-title {
     /* Стили для заголовков во второй секции */
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #303030;
+    margin-bottom: 25px;
 }
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
+    list-style-image: url('./assets/images/arrow.svg');
+    padding-left: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+
 }
+
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
+
 }
 
 .label {
